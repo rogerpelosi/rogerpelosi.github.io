@@ -1,0 +1,51 @@
+.content-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.intro, .education, .skills, .experience{
+    display: flex;
+    flex-direction: column;
+}
+
+.img{
+    width: 25vw;
+    height: 25vw;
+    background-image: url(src/assets/images/headshot2.png);
+    background-size: cover;
+}
+
+.break-holder{
+    display: flex;
+    flex-direction: row;
+}
+
+.break{
+    background-color: rgb(205, 216, 225);
+    width: 2vw;
+    height: 2vw;
+    margin: 3px;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    list-style: none;
+    margin-bottom: none;
+}
+
+li{
+    padding: 1vw;
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    width: 10vw;
+    height: 10vw;
+    padding: 1vw;
+}
