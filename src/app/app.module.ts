@@ -4,11 +4,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import {Routes, RouterModule} from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { HomeComponent } from './components/home/home.component';
-import { HandsComponent } from './components/hands/hands.component';
-import { PenComponent } from './components/pen/pen.component';
-import { KeyboardComponent } from './components/keyboard/keyboard.component';
-import { NavigationComponent } from './components/navigation/navigation.component';
+import { HomeComponent } from './home/home.component';
+import { HandsComponent } from './hands/hands.component';
+import { PenComponent } from './pen/pen.component';
+import { KeyboardComponent } from './keyboard/keyboard.component';
+import { NavigationComponent } from './navigation/navigation.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
