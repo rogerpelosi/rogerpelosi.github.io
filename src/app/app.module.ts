@@ -9,6 +9,7 @@ import { HandsComponent } from './hands/hands.component';
 import { PenComponent } from './pen/pen.component';
 import { KeyboardComponent } from './keyboard/keyboard.component';
 import { NavigationComponent } from './navigation/navigation.component';
+import { SocialComponent } from './social/social.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -25,7 +26,8 @@ const routes: Routes = [
     HandsComponent,
     PenComponent,
     KeyboardComponent,
-    NavigationComponent
+    NavigationComponent,
+    SocialComponent
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,4 @@
-.content-body{
+.content-body, .documents{
     display: flex;
     flex-direction: column;
 }
@@ -6,6 +6,11 @@
 .intro, .education, .skills, .experience, .contact{
     display: flex;
     flex-direction: column;
+}
+
+#smiley{
+    width: 10vw;
+    height: 10vw;
 }
 
 .img{
@@ -82,3 +87,23 @@ p{
     filter: invert(60%);
     -webkit-filter: invert(60%);
 }
+
+/* a{
+    text-decoration: none;
+    color: rgb(84, 162, 211);
+    position: relative;
+}
+
+a:hover{
+    color: black;
+} */
+
+a {
+    color: rgb(84, 162, 211);
+    text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+    transition: text-decoration-color 300ms;
+  }
+  
+  a:hover {
+    text-decoration-color: rgb(84, 162, 211);
+  }

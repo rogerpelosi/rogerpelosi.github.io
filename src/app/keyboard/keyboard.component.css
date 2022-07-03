@@ -1,0 +1,10 @@
+.content-body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'DotGothic16', sans-serif;
+}
+
+#smiley{
+    width: 30vw;
+    height: 30vw;
+}
