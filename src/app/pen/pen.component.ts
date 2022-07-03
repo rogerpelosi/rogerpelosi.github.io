@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-pen',
@@ -6,10 +6,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pen.component.css']
 })
 export class PenComponent implements OnInit {
-
+  @ViewChild('blog') a: any;
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  addShadow(){
+    this.a.nativeElement.classList.add('shadow');
+  }
+
+  removeShadow(){
+    this.a.nativeElement.classList.remove('shadow');
   }
 
 }
