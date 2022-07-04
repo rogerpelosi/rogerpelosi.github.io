@@ -4,6 +4,12 @@
     font-family: 'DotGothic16', sans-serif;
 }
 
+#computer{
+    width: 12vw;
+    height: 12vw;
+    /* opacity: .65; */
+}
+
 #smiley{
     width: 30vw;
     height: 30vw;

@@ -68,4 +68,8 @@ p{
         width: 35vw;
         height: 35vw;
     }
+
+    a{
+        text-decoration: none;
+    }
 }

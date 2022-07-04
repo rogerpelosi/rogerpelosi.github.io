@@ -4,7 +4,16 @@
     flex-direction: row;
     align-items: center;
     width: 100%;
-    /* box-shadow: .5rem .5rem 5px lightblue; */
+}
+
+@media only screen and (max-width: 600px) {
+	#navigation-container{
+		width: 75vw !important;
+		height: 75vw;
+	}
+	.col{
+		font-size: 6vw ;
+	}
 }
 
 .row{
@@ -41,58 +50,42 @@ a{
 }
 
 @keyframes Border {
-    /* 0% {border-color: lightblue;}
-    20% {border-color: rgb(192, 225, 236);}
-    40% {border-color: rgb(210, 233, 241);}
-    60% {border-color: rgb(228, 240, 244);}
-    80% {border-color: rgb(192, 225, 236);;}
-    100% {border-color: lightblue;} */
-
     0%,
 	100% {
 		border-radius: 30% 70% 70% 30% / 30% 52% 48% 70%;
 		box-shadow: 0 -2vmin 4vmin lightblue inset, 0 -4vmin 4vmin rgba(128, 128, 128, 0.395) inset,
 			0 -2vmin 7vmin aliceblue inset;
 	}
-
 	10% {
 		border-radius: 50% 50% 20% 80% / 25% 80% 20% 75%;
 	}
-
 	20% {
 		border-radius: 67% 33% 47% 53% / 37% 20% 80% 63%;
 	}
-
 	30% {
 		border-radius: 39% 61% 47% 53% / 37% 40% 60% 63%;
 		box-shadow: 0 -4vmin 8vmin lightblue inset, -1vmin -2vmin 6vmin lightskyblue inset,
 			-1vmin -2vmin 4vmin rgba(128, 128, 128, 0.395) inset, 1vmin 4vmin 8vmin aliceblue inset;
 	}
-
 	40% {
 		border-radius: 39% 61% 82% 18% / 74% 40% 60% 26%;
 	}
-
 	50% {
 		border-radius: 100%;
 		box-shadow: 0 4vmin 16vmin aliceblue inset, 0 2vmin 5vmin lightblue inset, 0 4vmin 4vmin rgba(128, 128, 128, 0.395) inset,
 			0 6vmin 8vmin lightskyblue inset;
 	}
-
 	60% {
 		border-radius: 50% 50% 53% 47% / 72% 69% 31% 28%;
 	}
-
 	70% {
 		border-radius: 50% 50% 53% 47% / 26% 22% 78% 74%;
 		box-shadow: 1vmin 1vmin 8vmin lightblue inset,
 			2vmin -1vmin 4vmin aliceblue inset, -1vmin -1vmin 16vmin rgba(128, 128, 128, 0.395) inset;
 	}
-
 	80% {
 		border-radius: 50% 50% 53% 47% / 26% 69% 31% 74%;
 	}
-
 	90% {
 		border-radius: 20% 80% 20% 80% / 20% 80% 20% 80%;
 	}
