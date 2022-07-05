@@ -10,6 +10,18 @@
     /* opacity: .65; */
 }
 
+.apps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .apps{
+        width: 100vw;
+    }
+}
 #smiley{
     width: 30vw;
     height: 30vw;
