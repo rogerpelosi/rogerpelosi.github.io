@@ -1,13 +1,12 @@
 .content-body{
     display: flex;
     flex-direction: column;
-    /* font-family: 'DotGothic16', sans-serif; */
 }
 
-#computer{
-    width: 12vw;
-    height: 12vw;
-    /* opacity: .65; */
+#keyboard{
+    width: 10vw;
+    height: 10vw;
+    opacity: .75;
 }
 
 .break-holder{
@@ -55,6 +54,11 @@ label{
 @media only screen and (max-width: 600px) {
     .apps{
         width: 100vw;
+    }
+
+    #keyboard{
+        width: 20vw;
+        height: 20vw;
     }
 }
 

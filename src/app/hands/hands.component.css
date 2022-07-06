@@ -4,7 +4,28 @@
     font-family: 'DotGothic16', sans-serif;
 }
 
-#smiley{
-    width: 30vw;
-    height: 30vw;
+#hands{
+    width: 10vw;
+    height: 12vw;
+    opacity: .75;
+}
+
+.break-holder{
+    display: flex;
+    flex-direction: row;
+}
+
+.break{
+    background-color: rgb(205, 216, 225);
+    width: 2vw;
+    height: 2vw;
+    margin: 3px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #hands{
+        width:20vw;
+        height:22vw;
+    }
 }

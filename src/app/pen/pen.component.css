@@ -4,10 +4,10 @@
     /* font-family: 'DotGothic16', sans-serif; */
 }
 
-#penned-circle{
+#pen{
     width: 10vw;
     height: 10vw;
-    opacity: .65;
+    opacity: .75;
 }
 
 .break-holder{
@@ -71,5 +71,10 @@ p{
 
     a{
         text-decoration: none;
+    }
+
+    #pen{
+        width:20vw;
+        height:20vw;
     }
 }
