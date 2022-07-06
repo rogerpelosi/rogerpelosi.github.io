@@ -1,13 +1,41 @@
 .content-body{
     display: flex;
     flex-direction: column;
-    font-family: 'DotGothic16', sans-serif;
+    /* font-family: 'DotGothic16', sans-serif; */
 }
 
 #computer{
     width: 12vw;
     height: 12vw;
     /* opacity: .65; */
+}
+
+.break-holder{
+    display: flex;
+    flex-direction: row;
+}
+
+.break{
+    background-color: rgb(205, 216, 225);
+    width: 2vw;
+    height: 2vw;
+    margin: 3px;
+}
+
+p{
+    text-align: justify;
+    font-family: 'DotGothic16', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.wep-apps, .apps, .rhino-files{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .apps{
@@ -17,12 +45,33 @@
     justify-content: center;
 }
 
+label{
+    color:rgb(102, 115, 119);
+    margin-bottom: 1vw;
+    font-family: 'DotGothic16', sans-serif;
+
+}
+
 @media only screen and (max-width: 600px) {
     .apps{
         width: 100vw;
     }
 }
-#smiley{
-    width: 30vw;
-    height: 30vw;
+
+#vase-frame{
+    width:30vw;
+    height: 40vw;
+}
+
+#what{
+    font-size: 1rem;
+    color: rgb(84, 162, 211);
+    text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+    transition: text-decoration-color 300ms;
+    font-family: 'DotGothic16', sans-serif;
+
+}
+
+#what:hover{
+    text-decoration-color: rgb(84, 162, 211);
 }
