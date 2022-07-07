@@ -30,7 +30,18 @@ a{
     text-decoration: none;
 }
 
-.wep-apps, .apps, .rhino-files{
+.lead a{
+    color: rgb(84, 162, 211);
+    text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+    transition: text-decoration-color 300ms;
+    font-family: 'DotGothic16', sans-serif;
+}
+
+.lead a:hover{
+    text-decoration-color: rgb(84, 162, 211);
+}
+
+.web-apps, .rhino-files{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,43 +50,103 @@ a{
 
 .apps{
     display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.app, .obj{
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+    transition: text-decoration-color 300ms;
+    font-family: 'DotGothic16', sans-serif;
+}
+
+.app:hover{
+    text-decoration-color: rgb(84, 162, 211);
 }
 
 label{
     color:rgb(102, 115, 119);
-    margin-bottom: 1vw;
+    font-size: 1.25vw;
+    margin-bottom: .5vw;
     font-family: 'DotGothic16', sans-serif;
+    cursor: pointer;
+}
 
+.app img{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 4vw;
 }
 
 @media only screen and (max-width: 600px) {
-    .apps{
-        width: 100vw;
-    }
-
     #keyboard{
         width: 20vw;
         height: 20vw;
     }
+
+    .apps{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .app{
+        margin-bottom: 5vw;
+    }
+    
+    .app img{
+        width: 45vw;
+        height: 45vw;
+        border-radius: 6vw;
+    }
+
+    label, .rhino-files a{
+        font-size:4vw;
+    }
+
+    .obj #vase-render{
+        width:40vw;
+        height: 50vw;
+    }
+    
+    .obj #egg-present{
+        width: 40vw;
+        height: 43vw;
+    }
+    
+    .obj #phone{
+        width: 40vw;
+        height: 70vw;
+    }
 }
 
-#vase-frame{
+.obj{
+    color:rgb(102, 115, 119);
+    font-size: 1.25vw;
+}
+
+.obj:hover{
+    color:rgb(84, 162, 211) !important;
+    font-weight: bold;
+}
+
+#vase-render{
     width:30vw;
     height: 40vw;
 }
 
-#what{
-    font-size: 1rem;
-    color: rgb(84, 162, 211);
-    text-decoration: underline 0.15em rgba(0, 0, 0, 0);
-    transition: text-decoration-color 300ms;
-    font-family: 'DotGothic16', sans-serif;
-
+#egg-present{
+    width: 30vw;
+    height: 33vw;
 }
 
-#what:hover{
-    text-decoration-color: rgb(84, 162, 211);
+#phone{
+    width: 30vw;
+    height: 50vw;
 }
