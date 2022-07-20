@@ -69,8 +69,8 @@ p{
         height: 35vw;
     }
 
-    a{
-        text-decoration: none;
+    .specific-texts a{
+        text-decoration:underline 0.15em rgb(84, 162, 211);
     }
 
     #pen{

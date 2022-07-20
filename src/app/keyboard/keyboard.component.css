@@ -123,6 +123,10 @@ label{
         width: 40vw !important;
     }
 
+    a, .obj, .lead a{
+        text-decoration:underline 0.15em rgb(84, 162, 211);
+    }
+
 }
 
 .obj{
@@ -148,4 +152,8 @@ label{
 #phone{
     width: 30vw;
     height: 50vw;
+}
+
+.twodworks .lead{
+    font-weight: bold;
 }

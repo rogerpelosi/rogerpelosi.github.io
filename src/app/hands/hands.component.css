@@ -1,7 +1,7 @@
 .content-body{
     display: flex;
     flex-direction: column;
-    font-family: 'DotGothic16', sans-serif;
+    /* font-family: 'DotGothic16', sans-serif; */
 }
 
 #hands{
@@ -22,10 +22,47 @@
     margin: 3px;
 }
 
+.apparel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.apparel-items{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.apparel-item{
+    width: 30vw;
+    height: 30vw;
+}
+
 @media only screen and (max-width: 600px) {
 
     #hands{
         width:20vw;
         height:22vw;
+    }
+
+    .apparel-items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0 !important;
+    }
+
+    .apparel-item{
+        margin-top: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-bottom: 3vw;
+
+        width: 60vw;
+        height: 60vw;
     }
 }

@@ -54,7 +54,7 @@ li{
     }
 
     a{
-        text-decoration: none;
+        text-decoration:underline 0.15em rgb(84, 162, 211);
     }
 
     #home{
