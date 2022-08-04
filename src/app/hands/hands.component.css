@@ -22,7 +22,7 @@
     margin: 3px;
 }
 
-.apparel, .head, .mold{
+.apparel, .head, .mold, .portrait, .skateboard{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,7 +44,7 @@
     height: 35vw;
 }
 
-.apparel-item{
+.apparel-item, .mixed-media{
     width: 50vw;
     height: auto;
 }
@@ -64,7 +64,7 @@
         margin-bottom: 0 !important;
     } */
 
-    .apparel-item{
+    .apparel-item, .mixed-media{
         /* margin-top: 0 !important;
         margin-left: 0 !important;
         margin-right: 0 !important;
