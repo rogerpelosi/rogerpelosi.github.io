@@ -12,11 +12,11 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { SocialComponent } from './social/social.component';
 
 const routes: Routes = [
-  {path: 'home', component: HomeComponent},
+  {path: 'about', component: HomeComponent},
   {path: 'pen', component: PenComponent},
   {path: 'hands', component: HandsComponent},
   {path: 'keyboard', component: KeyboardComponent},
-  {path: '', redirectTo: 'home', pathMatch: 'full'}
+  {path: '', redirectTo: 'about', pathMatch: 'full'}
 ]
 
 @NgModule({

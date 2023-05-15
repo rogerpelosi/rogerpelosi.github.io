@@ -62,7 +62,7 @@ li{
         text-align: justify;
     }
 
-    a{
+    a, .link{
         text-decoration:underline 0.15em rgb(84, 162, 211);
     }
 
