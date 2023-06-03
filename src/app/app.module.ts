@@ -13,7 +13,7 @@ import { SocialComponent } from './social/social.component';
 
 const routes: Routes = [
   {path: 'about', component: HomeComponent},
-  {path: 'pen', component: PenComponent},
+  // {path: 'pen', component: PenComponent},
   {path: 'hands', component: HandsComponent},
   {path: 'keyboard', component: KeyboardComponent},
   {path: '', redirectTo: 'about', pathMatch: 'full'}
